@@ -47,7 +47,7 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-white text-white hover:bg-white hover:text-hawk-dark-blue font-semibold px-8"
+              className="border-white text-hawk-dark-blue bg-white hover:bg-transparent hover:text-white font-semibold px-8"
               onClick={() => document.getElementById("features")?.scrollIntoView({ behavior: "smooth" })}
             >
               Learn More
