@@ -63,9 +63,6 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            <Link to="/" className="text-white hover:text-hawk-accent-blue transition-colors">
-              About
-            </Link>
             <a href="#contact" className="text-white hover:text-hawk-accent-blue transition-colors">
               Contact
             </a>
@@ -120,13 +117,6 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Deployment Options
-            </a>
-            <a
-              href="#"
-              className="block px-3 py-2 rounded-md text-white font-medium hover:bg-hawk-medium-blue"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              About
             </a>
             <a
               href="#contact"
