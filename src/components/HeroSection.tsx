@@ -13,11 +13,11 @@ const HeroSection = () => {
         <div className="relative w-full h-full">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-hawk-dark-blue via-transparent to-transparent opacity-90"></div>
           <iframe
-            src="https://player.vimeo.com/video/59ae3567-4b24-419a-be7a-3093842e545e?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
+            src="https://player.vimeo.com/video/1078775185?h=478151ecdc&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=1&loop=1&muted=1"
             className="absolute w-full h-full object-cover"
             frameBorder="0"
-            allow="autoplay; fullscreen"
-            title="HAWKWRX VBT Demo Video"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            title="ALT_LOGO_HAWKWRX_Presents_VBT"
           ></iframe>
         </div>
       </div>
